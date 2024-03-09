@@ -80,10 +80,32 @@ f) 2,10, 12, 16, 17, 18, 19, _21_
 
 */
 
+
+
+/* 4)Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+
+Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+
+Respondendo a pergunta :
+
+Imaginando que os interrupitores 1 e 3 tivessem sido pressionados com 1 ou 2 minutos de diferença e o 2 não tivesse sido ligado teria ido a primeira vez na sala 1 e depois na sala 3 e teria verificado qual das lampadas estivessem mais quente que a outra e a fria seria o 2 interruptor
+
+*/
+
+
+
+/* 5) Escreva um programa que inverta os caracteres de um string.
+
+IMPORTANTE:
+
+a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
+
+b) Evite usar funções prontas, como, por exemplo, reverse;*/
+
 // Criando codigo para inverter os caracteres de uma string //
 
 function inverterString(str) {
-  let resultado = '';
+  let resultado = "";
   for (let i = str.length - 1; i >= 0; i--) {
     resultado += str[i];
   }
