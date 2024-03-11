@@ -16,9 +16,9 @@ Ao final do processamento, qual será o valor da variável SOMA?
 
 // Transformando o codigo para Javascript//
 
-let indice = 13;
-let soma = 0;
-let k = 0;
+var indice = 13;
+var soma = 0;
+var k = 0;
 
 while (k < indice) {
   k = k + 1;
@@ -35,10 +35,10 @@ IMPORTANTE:Esse número pode ser informado através de qualquer entrada de sua p
 // Linguagem usada Javascript //
 
 function sequenciaFibonacci(numero) {
-  let a = 0,
+  var a = 0,
     b = 1;
   while (a < numero) {
-    let temp = a;
+    var temp = a;
     a = b;
     b = temp + b;
   }
@@ -47,7 +47,7 @@ function sequenciaFibonacci(numero) {
 
 // O Número que vai ser verificado //
 
-let numeroInformado = parseInt(
+var numeroInformado = parseInt(
   prompt(
     "Digite um número para verificar se o número pertence ou não à sequência de Fibonacci:"
   )
@@ -105,13 +105,13 @@ b) Evite usar funções prontas, como, por exemplo, reverse;*/
 // Criando codigo para inverter os caracteres de uma string //
 
 function inverterString(str) {
-  let resultado = "";
-  for (let i = str.length - 1; i >= 0; i--) {
+  var resultado = "";
+  for (var i = str.length - 1; i >= 0; i--) {
     resultado += str[i];
   }
   return resultado;
 }
 
-let minhaString = "Olá, Target";
-let stringInvertida = inverterString(minhaString);
+var minhaString = "Olá, Target";
+var stringInvertida = inverterString(minhaString);
 console.log(stringInvertida);
